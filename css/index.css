@@ -1,0 +1,10 @@
+#head {
+    color: #000;
+    background: #808080;
+}
+
+.clear_box{
+    border-style:none;
+    background-color:transparent;
+    width:100%;
+}
