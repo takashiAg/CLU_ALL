@@ -26,6 +26,9 @@
         //*/
         require("./renderer.js");
         //*
+        window.onerror = function (msg, url, line, col, error) {
+            alert("line:" + line + "col:" + col + "message" + msg); // エラーの内容
+        };
     </script>
 
 
