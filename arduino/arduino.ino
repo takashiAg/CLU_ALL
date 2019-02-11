@@ -45,6 +45,7 @@ void setup() {
   analogWrite(pwmpin, 127);
   Serial.begin(115200);
   Serial.println("start the program");
+  pinMode(EEPmode_pin,INPUT_PULLUP);
   load_parameter();
   //show_parameter();
   parameters_counter = 0;
