@@ -25,6 +25,6 @@
     "electron-rebuild": "^1.8.2",
     "electron-builder": "^20.38.5",
     "electron-packager": "^13.0.1",
-    "electron": "^4.0.1"
+    "electron": "^11.5.0"
   }
 }
